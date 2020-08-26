@@ -1,5 +1,5 @@
 f :: Int -> [Int] -> [Int]
-f n arr = --Fill up this function
+f n arr = f n arr = [x | x <- arr, x > n]
 
 -- The Input/Output section. You do not need to change or modify this part
 main = do 
